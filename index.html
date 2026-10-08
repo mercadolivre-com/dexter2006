@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ativador</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            width: 90%;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 14px;
+            margin-top: 15px;
+            border-radius: 8px;
+            border: none;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #mensagem {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>Ativador</h2>
+
+    <input
+        type="text"
+        id="codigo"
+        placeholder="Digite o código"
+    >
+
+    <button onclick="ativar()">
+        Ativar
+    </button>
+
+    <div id="mensagem"></div>
+
+</div>
+
+<script>
+
+async function ativar() {
+
+    const codigo = document
+        .getElementById("codigo")
+        .value
+        .trim()
+        .toUpperCase();
+
+    const mensagem = document.getElementById("mensagem");
+
+    if (!codigo) {
+        mensagem.textContent = "Digite um código.";
+        return;
+    }
+
+    mensagem.textContent = "Verificando...";
+
+    try {
+
+        const resposta = await fetch("codigos.json");
+
+        const codigos = await resposta.json();
+
+        if (!codigos[codigo]) {
+            mensagem.textContent = "Código inválido.";
+            return;
+        }
+
+        const arquivo = codigos[codigo];
+
+        const url = "configs/" + arquivo;
+
+        const download = document.createElement("a");
+
+        download.href = url;
+        download.download = arquivo;
+
+        document.body.appendChild(download);
+
+        download.click();
+
+        download.remove();
+
+        mensagem.textContent = "Código válido! Arquivo liberado.";
+
+    } catch (erro) {
+
+        console.error(erro);
+
+        mensagem.textContent =
+            "Erro ao conectar ao servidor.";
+
+    }
+}
+
+</script>
+
+</body>
+</html>
