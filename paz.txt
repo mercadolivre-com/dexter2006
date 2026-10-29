@@ -1,3 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="br#espn-hd" tvg-name="ESPN FHD¹" tvg-logo="http://89.202.209.66:80/images/o4__t_tOn3hFCnaJay1oY3w5lLXlhI8hEVFPMg7JywNJdGsgh7-tdyBdLnvKi_rV.png" group-title="Canais • ESPN",ESPN FHD¹
-https://xn--l---------------------------_________________________-2w85c.null-null.shop/tos-alisg-avt-0068/proxy.mp4?container=videos&refresh=31622400&url=https://neosoro.gq/V/RCFServer2/ondemand/HMEMARNHUMNVODIA.mp4?sv=89&fall=y&cc=y&ip=186.249.82.161&ipv6=&ip_bind=686e5599021d7c68b36639c1c181dc07&nu3zAQc9HC3GbwJq=1793300660-vRmwvKokMck0BQ8r5hO0OU3lzjmfKgsUp2uMtlQvBxY%3D
+https://xn--l---------------------------_________________________-2w85c.null-null.shop/tos-alisg-avt-0068/proxy.m3u8?container=images&refresh=10&url=https://neosoro.gq/docs/espn/__index.m3u8?sv=54&fall=y&cc=y&ip=186.249.82.161&ipv6=&ip_bind=7f5407878fccec3284e668141d9c3118&nu3zAQc9HC3GbwJq=1793301683-eNOkd4qSVJjMIhFA8XN1yWWuNh8taTFU5qodxe5U8Y0%3D
