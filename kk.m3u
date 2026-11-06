@@ -1,8 +1,4 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:10
-#EXT-X-PLAYLIST-TYPE:VOD
-#EXT-X-MEDIA-SEQUENCE:0
 #EXTINF:-1 tvg-id="br#espn-hd" tvg-name="ESPN FHD¹" tvg-logo="http://89.202.209.66:80/images/o4__t_tOn3hFCnaJay1oY3w5lLXlhI8hEVFPMg7JywNJdGsgh7-tdyBdLnvKi_rV.png" group-title="Canais • ESPN",ESPN FHD¹
 https://cdn.receitasdeliciosas.xyz/t/tnxq4j.gg2ddeNL1jsVr74nAjLnKt/v/19cdbf9171/0.m3u8
 #EXTINF:-1 tvg-id="ESPN2.br" tvg-name="ESPN 2 FHD¹" tvg-logo="http://89.202.209.66:80/images/0JKNKahhq5PYt6DrLgQtp2EUtYwg2nva5da_WzSLtXIT58MiNwfZKLFSLOorVdkN0KfKYePwMl6lRcURJ8GzuQ.png" group-title="Canais • ESPN",ESPN 2 FHD¹
@@ -18,9 +14,6 @@ https://xn--l---------------------------_________________________-2w85c.null-nul
 https://bae9594a4d0d760fe6d16dda7acf737a.s25-cloudfront-net.lat/stream/5802b757a3b6d44d77020600ef919517/error.txt
 #EXTINF:-1 tvg-name="H2" group-title="FUTEBOL",H2
 https://bae9594a4d0d760fe6d16dda7acf737a.s25-cloudfront-net.lat/stream/4815bfab8d1f537ee7e33f053e28f967/error.txt
-#EXTINF:-1 tvg-name="4x5" tvg-type="movie" group-title="Séries",4x5
-https://edge1-waw-sprintcdn.r66nv9ed.com/hls2/05/12335/xo73fbqp0f2e_x/master.m3u8?t=86iRzfzI4YL8ckhWAnIEQDEEnqWKr8sGd4kjylV1YWA&s=1793977043&e=10800&f=61678537&srv=1065&asn=&sp=5500&p=0
-#EXT-X-ENDLIST
 
 
 
