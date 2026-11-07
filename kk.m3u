@@ -10,10 +10,10 @@ https://xn--l---------------------------_________________________-2w85c.null-nul
 #EXTINF:-1 tvg-id="ESPN5.br" tvg-name="ESPN 5 FHD¹" tvg-logo="http://89.202.209.66:80/images/0JKNKahhq5PYt6DrLgQtp2EUtYwg2nva5da_WzSLtXKZTMQj74Rio7WLN7X3ZTeUmgA3DBLUV9R25reo8Se_0g.png" group-title="Canais • ESPN",ESPN 5 FHD¹
 https://xn--l---------------------------_________________________-2w85c.null-null.shop/tos-alisg-avt-0068/proxy.m3u8?container=images&refresh=10&url=https://neosoro.gq/docs/espn5/__index.m3u8?sv=113&fall=y&cc=y&ip=186.249.85.162&ipv6=&ip_bind=c9af50ec49f540e96b4d89ac68e36621&nu3zAQc9HC3GbwJq=1793721189-1TBFiz3t0tS1QOruvTmN2zl6dKy2EvAYg7CkeV7bRj8%3D
 #EXTINF:-1 tvg-id="ESPN6.br" tvg-name="ESPN 6 FHD¹" tvg-logo="http://89.202.209.66:80/images/0JKNKahhq5PYt6DrLgQtp2EUtYwg2nva5da_WzSLtXIAsUtaDUM_btkae-Ua-sregVWD66gx1dkqUSo0Pl83rw.png" group-title="Canais • ESPN",ESPN 6 FHD¹
-#EXTINF:-1 tvg-name="tot" group-title="FUTEBOL",tot
-https://np.s25-cloudfront-net.lat/temp/espn.txt
-#EXTINF:-1 tvg-name="H2" group-title="FUTEBOL",H2
-https://xn--l---------------------------_________________________-2w85c.null-null.shop/tos-alisg-avt-0068/proxy.m3u8?container=images&refresh=10&url=https://neosoro.gq/docs/history2/__index.m3u8?sv=40&fall=y&cc=y&ip=186.249.81.211&ipv6=&ip_bind=4a1bd41f2e96f6314a0771c0d6421feb&nu3zAQc9HC3GbwJq=1794060536-4dIkJZowD6W3uyFH%2FFn9nw3vqIX7WnBMpkSk6OZGtio%3D
+#EXTINF:-1 tvg-name="Arsenal" group-title="FUTEBOL",Arsenal
+https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/c4d7837adbd0784142917adb7acc21bc/error.txt
+#EXTINF:-1 tvg-name="Bayern" group-title="FUTEBOL",Bayern
+https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/fc5c0818e6dcc2c5e052f66c946b1f74/error.txt
 
 
 
